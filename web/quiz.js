@@ -294,8 +294,8 @@
             responsibilityMean = (responsibilitySum / responsibilityCount).toFixed(0);
             neuroticismMean = (neuroticismSum / neuroticismCount).toFixed(0);
             opennessMean = (opennessSum / opennessCount).toFixed(0);
-            var personalityResult = '<div class="personality-keeper"> Extroversion: ' + extroversionMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> Pleasant:  ' + pleasantMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> Responsibility:  ' + responsibilityMean + '</div>' + '<div> <br> </div>' +
-                '<div class="personality-keeper">Neuroticism:  ' + neuroticismMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> Openness:  ' + opennessMean + '</div>';
+            var personalityResult = '<div class="personality-keeper"> 外向性: ' + extroversionMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> 宜人性:  ' + pleasantMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> 责任心:  ' + responsibilityMean + '</div>' + '<div> <br> </div>' +
+                '<div class="personality-keeper">神经质:  ' + neuroticismMean + '</div>' + '<div> <br> </div>' + '<div class="personality-keeper"> 开放性:  ' + opennessMean + '</div>';
 
             score = roundReloaded(trueCount / questionLength * 100, 2);
 
