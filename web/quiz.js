@@ -6,7 +6,7 @@
             startImg: 'images/start.gif',
             endText: '已结束!',//end
             shortURL: null,
-            sendResultsURL: 'http://192.168.60.78:8080/WebDemoTest/AnswerServlet',
+            sendResultsURL: 'http://192.168.60.79:8080/WebDemoTest/AnswerServlet',
             resultComments: {
                 perfect: '恭喜您，您已完成全部问题！',
                 excellent: '非常优秀!',
@@ -83,6 +83,10 @@
             return result;
         }
 
+        function flag() {
+            console.log("hi");
+
+        }
         //User Score
         function judgeSkills(score) {
             var returnString;
@@ -132,13 +136,13 @@
                         case "ext":
                             extroversionSum = extroversionSum + (questionumber + 1); // calculating the sum of extroversion
                             extroversionCount = extroversionCount + 1; // total number of extroversion question
-                            console.log("ext");
+                            //console.log("ext");
                             break;
 
                         case "agr":
                             pleasantSum = pleasantSum + (questionumber + 1); // calculating the sum of pleasant
                             pleasantCount = pleasantCount + 1;// total number of pleasant question
-                            console.log("agr");
+                            //console.log("agr");
                             break;
 
                         case "con":
@@ -150,13 +154,13 @@
                         case "neu":
                             neuroticismSum = neuroticismSum + (questionumber + 1);//  calculating the sum of neuroticism
                             neuroticismCount = neuroticismCount + 1;// total number of neuroticism question
-                            console.log("neu");
+                            //console.log("neu");
                             break;
 
                         case "opn":
                             opennessSum = opennessSum + (questionumber + 1);//  calculating the sum of openness
                             opennessCount = opennessCount + 1;// total number of openness question
-                            console.log("opn");
+                            //console.log("opn");
                             break;
 
                         default:

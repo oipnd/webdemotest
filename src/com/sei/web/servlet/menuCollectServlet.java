@@ -28,8 +28,10 @@ public class menuCollectServlet extends HttpServlet {
         	response.sendRedirect("/WebDemoTest/miaoshaCollect.jsp");    
         }else if(WebType.equals("outCollect")){  	
           response.sendRedirect("/WebDemoTest/menu_Main.jsp");
-        }else if (WebType.equals("wenjuan")){
+		}else if (WebType.equals("wenjuan")){
 			response.sendRedirect("/WebDemoTest/wenjuan.jsp");
+		} else if (WebType.equals("xinli")) {
+			response.sendRedirect("/WebDemoTest/xinli/xinli.html");
 		}
             	
 

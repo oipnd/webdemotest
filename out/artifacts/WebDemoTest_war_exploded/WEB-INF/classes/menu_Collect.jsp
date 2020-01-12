@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -54,6 +54,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<br>
    <center><a style="text-decoration:none" title="点我进入问卷采集" href=/WebDemoTest/menuCollectServlet?WebType=wenjuan >
 	   <p style="font-family: '微软雅黑';font-weight:bold;font-size:50px;color:#445cbb">问卷采集</p>
+   </a></center>
+   <br>
+   <center><a style="text-decoration:none" title="点我进入心理采集" href=/WebDemoTest/menuCollectServlet?WebType=xinli>
+	   <p style="font-family: '微软雅黑';font-weight:bold;font-size:50px;color:#445cbb">心理采集</p>
    </a></center>
    <br>
 	<center><a style="text-decoration:none" title="点我进入登录采集" href=/WebDemoTest/menuCollectServlet?WebType=userLogin >

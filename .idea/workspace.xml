@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="WebDemoTest:war exploded" />
@@ -7,8 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae66c3f-64ad-494f-b874-f6c778a8c64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/css/schulte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/css/w3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/img/dr_down_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/img/green_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/img/settings_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/fingerprint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/schulte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xinli/xinli.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/WJServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/WJServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/menuCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/menuCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/moduleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/com/sei/web/servlet/moduleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/menu_Collect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/menu_Collect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/WEB-INF/classes/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/menu_Collect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/menu_Collect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDemoTest_war_exploded/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/WJServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/WJServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/menuCollectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/menuCollectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/moduleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/com/sei/web/servlet/moduleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/menu_Collect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/menu_Collect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDemoTest/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDemoTest/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/menu_Collect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu_Collect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,86 +83,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/quiz.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6424">
-              <caret line="292" column="46" selection-start-line="292" selection-start-column="46" selection-end-line="292" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/DaoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quiz.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+            <state relative-caret-position="-1477">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="47" />
               <folding>
-                <element signature="e#51#55#0" expanded="true" />
-                <element signature="e#51#55#0" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/CollectServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MainServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AttackServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/ReaderDBFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -129,13 +97,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+            <state relative-caret-position="-22">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/VerifyCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/xinli/js/schulte.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="505" column="47" selection-start-line="505" selection-start-column="47" selection-end-line="505" selection-end-column="47" />
+              <folding>
+                <element signature="e#3597#3641#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="22" />
+              <folding>
+                <element signature="n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xinli/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="460" column="1" lean-forward="true" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xinli/css/schulte.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4166">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -143,6 +191,24 @@
       <find>UID</find>
       <find>fpath</find>
       <find>Extroversion</find>
+      <find>li</find>
+      <find>console.log</find>
+      <find>quiz.js</find>
+      <find>contentFob</find>
+      <find>onclick</find>
+      <find>192.1</find>
+      <find>192</find>
+      <find>container</find>
+      <find>190</find>
+      <find>192.168.</find>
+      <find>WJ</find>
+      <find>appendMouseMove</find>
+      <find>dialog</find>
+      <find>app</find>
+      <find>stats</find>
+      <find>input</find>
+      <find>settings</find>
+      <find>statsTabVisible</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,9 +221,21 @@
         <option value="$PROJECT_DIR$/src/com/sei/web/servlet/Answers.java" />
         <option value="$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java" />
         <option value="$PROJECT_DIR$/src/com/sei/web/servlet/AnswerServlet.java" />
-        <option value="$PROJECT_DIR$/web/quiz.js" />
         <option value="$PROJECT_DIR$/web/wenjuan.jsp" />
         <option value="$PROJECT_DIR$/web/collect.js" />
+        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java" />
+        <option value="$PROJECT_DIR$/web/quiz.js" />
+        <option value="$PROJECT_DIR$/web/style.css" />
+        <option value="$PROJECT_DIR$/web/assets/js/jquery-1.8.1.min.js" />
+        <option value="$PROJECT_DIR$/web/xinli/xinli.jsp" />
+        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java" />
+        <option value="$PROJECT_DIR$/web/menu_Collect.jsp" />
+        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java" />
+        <option value="$PROJECT_DIR$/web/xinli/js/collect.js" />
+        <option value="$PROJECT_DIR$/web/xinli/xinli.html" />
+        <option value="$PROJECT_DIR$/web/xinli/demo.html" />
+        <option value="$PROJECT_DIR$/web/xinli/js/schulte.js" />
       </list>
     </option>
   </component>
@@ -175,19 +253,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,26 +297,54 @@
               <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xinli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xinli" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xinli" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web\xinli\js" />
+      <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web\xinli" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -339,8 +446,48 @@
         </option>
       </method>
     </configuration>
+    <configuration name="xinli.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/xinli/xinli.jsp" />
+      <deployment>
+        <artifact name="WebDemoTest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WebDemoTest_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="xinli_jsp_WebDemoTest" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebDemoTest:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.xinli.jsp" />
         <item itemvalue="Application.testJson" />
       </list>
     </recent_temporary>
@@ -368,6 +515,15 @@
       <workItem from="1561632628591" duration="3160000" />
       <workItem from="1573028818911" duration="538000" />
       <workItem from="1574064512040" duration="106000" />
+      <workItem from="1574064663267" duration="207000" />
+      <workItem from="1574064975358" duration="611000" />
+      <workItem from="1576745895961" duration="3205000" />
+      <workItem from="1577088144614" duration="4754000" />
+      <workItem from="1577169251027" duration="3540000" />
+      <workItem from="1578641640603" duration="1892000" />
+      <workItem from="1578727016407" duration="834000" />
+      <workItem from="1578727902831" duration="2978000" />
+      <workItem from="1578815876968" duration="5034000" />
     </task>
     <task id="LOCAL-00001" summary="version v1.0-1">
       <created>1558682882325</created>
@@ -387,7 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32329000" />
+    <option name="totallyTimeSpent" value="55384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,9 +555,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22489317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1736111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,15 +566,16 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3295838" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.26837417" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.2817372" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.2632171" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.23509562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32850778" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21603563" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32845894" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21709786" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.39933258" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -425,7 +583,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.24053451" />
       <window_info anchor="bottom" id="Sequence" order="15" />
-      <window_info anchor="bottom" id="Statistic" order="16" />
+      <window_info anchor="bottom" id="Statistic" order="16" weight="0.3295838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,14 +610,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/collect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:////YYY-HP/Users/yyy/Documents/WeChat Files/oippnd/FileStorage/File/2019-04/collect(1).js" />
     <entry file="file:////YYY-HP/Users/yyy/Documents/WeChat Files/oippnd/FileStorage/File/2019-04/Untitled-1.html" />
     <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/testJson.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,10 +643,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/DaoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/CollectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/registerTest.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/registerCollect.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/questionare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/collect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+        <state relative-caret-position="2178">
+          <caret line="244" column="1" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#inferBrowser#0" />
             <element signature="n#!!block;n#browserInfo#0" />
@@ -509,17 +714,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WriterDBFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AttackServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modelBuild.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/out.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#120#629#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5chars.ent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu_Main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu_Model.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AnswerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        <state relative-caret-position="279">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -528,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/Answers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
+        <state relative-caret-position="773">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#751#752#0" expanded="true" />
@@ -542,80 +789,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/miaoshaCollect.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery-1.8.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="37384" lean-forward="true" selection-start-line="1" selection-start-column="37384" selection-end-line="1" selection-end-column="37384" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/bui-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="7478" selection-start-line="10" selection-start-column="7478" selection-end-line="10" selection-end-column="7478" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/fingerprint.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
+        <state relative-caret-position="11">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/VerifyCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6424">
-          <caret line="292" column="46" selection-start-line="292" selection-start-column="46" selection-end-line="292" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/DaoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/CollectServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AttackServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -626,20 +829,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        <state relative-caret-position="176">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.js">
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WriterDBFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="247" column="20" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu_Collect.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="62" column="107" selection-start-line="62" selection-start-column="107" selection-end-line="62" selection-end-column="107" />
           <folding>
-            <element signature="e#51#55#0" expanded="true" />
-            <element signature="e#51#55#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#center#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/VerifyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1477">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="460" column="1" lean-forward="true" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/css/schulte.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4166">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/schulte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="505" column="47" selection-start-line="505" selection-start-column="47" selection-end-line="505" selection-end-column="47" />
+          <folding>
+            <element signature="e#3597#3641#0" />
           </folding>
         </state>
       </provider>

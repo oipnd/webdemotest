@@ -139,7 +139,7 @@ public class WJServlet extends HttpServlet {
         String path=null;
         File filePath;
 
-        path = "/data/weiang_data/mousetrack/huawei/WebTestData/wj/" + name;
+        path = "D:\\data\\" + name;
         filePath = new File(path);
         if (!filePath.exists()) {
             filePath.mkdirs();
