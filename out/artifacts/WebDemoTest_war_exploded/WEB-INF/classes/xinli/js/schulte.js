@@ -83,10 +83,10 @@ var appData = {
     gameTimerId: -1,
 
     dialogShowed: false,
-    settingsTabVisible: true,
+    settingsTabVisible: false,
     statsTabVisible: false,
     mousemapTabVisible: false,
-    userinfoTabVisible: false,
+    userinfoTabVisible: true,
 
     stats: {
         startTime: new Date(),
@@ -136,12 +136,6 @@ Vue.directive('focus', {                   // https://jsfiddle.net/LukaszWiktor/
     }
 });
 
-vueApp2 = new Vue({
-    el: 'app2',
-    data:{
-        message: 'hi'
-    }
-    });
 vueApp = new Vue({
     el: '#app',
     data: appData,
@@ -149,7 +143,7 @@ vueApp = new Vue({
         this.initGame();
     },
     mounted: function () {
-        this.execDialog('settings');
+        this.execDialog('userinfo');
     },
     updated: function () {
         if (this.dialogShowed && this.mousemapTabVisible) {
@@ -500,7 +494,7 @@ vueApp = new Vue({
                 this.statsTabVisible = true;
             } else if (tabName === 'mousemap') {
                 this.mousemapTabVisible = true; // see 'updated' section
-            } else if(tabName==='settings'){
+            } else if(tabName ==='settings'){
                 this.settingsTabVisible = true;
             }else{
                 this.userinfoTabVisible = true;

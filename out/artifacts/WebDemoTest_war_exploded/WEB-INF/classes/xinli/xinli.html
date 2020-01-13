@@ -19,10 +19,6 @@
     </style>
 </head>
 <body>
-<div id="app2">
-    <p>{{message}}</p>
-    <input id="start" type="button" onclick="init()" value="start">
-</div>
 <div id="app" class="wrapper w3-container w3-padding-0 w3-margin-0"
      tabindex="-1"
      @mousemove="appendMouseMove($event)"
@@ -90,20 +86,25 @@
             </div>
             <!--用户信息tab-->
             <div class="w3-container w3-margin" v-if="userinfoTabVisible">
-                <table class="w3-table-all w3-large">
-                    <tr>
-                        <td>Time</td>
-                        <td>{{ stats.timeDiff() }}</td>
-                    </tr>
-                    <tr class="w3-pale-green">
-                        <td>Correct Clicks</td>
-                        <td>{{ stats.correctClicks }}</td>
-                    </tr>
-                    <tr class="w3-pale-red">
-                        <td>Wrong Clicks</td>
-                        <td>{{ stats.wrongClicks }}</td>
-                    </tr>
-                </table>
+                <form id="userinfo" class="w3-form">
+                    <p>Name : <input type="text" id="name" class="w3-input" name="fname"> </p>
+                    <p>Label : <input type="text" id="label" class="w3-input" name="flabel"> </p>
+                </form>
+<!--                <table class="w3-table-all w3-large">-->
+<!--                    <tr>-->
+<!--                        <td>Time</td>-->
+
+<!--                        <td>{{ stats.timeDiff() }}</td>-->
+<!--                    </tr>-->
+<!--                    <tr class="w3-pale-green">-->
+<!--                        <td>Correct Clicks</td>-->
+<!--                        <td>{{ stats.correctClicks }}</td>-->
+<!--                    </tr>-->
+<!--                    <tr class="w3-pale-red">-->
+<!--                        <td>Wrong Clicks</td>-->
+<!--                        <td>{{ stats.wrongClicks }}</td>-->
+<!--                    </tr>-->
+<!--                </table>-->
                 <div class="w3-row w3-col"
                      style="margin-top: 5px; overflow-y:scroll; overflow-x:hidden; max-height:250px;"
                      v-if="stats.clicks.length > 0">
@@ -307,11 +308,12 @@
                         ref="mousemap_canvas">
                 </canvas>
             </div>
-
+            <!--开始按钮-->
             <footer class="w3-container w3-light-grey w3-center">
                 <button type="button"
                         class="w3-btn w3-indigo w3-text-white w3-xlarge"
                         style="width: 80%; margin: 10px;"
+                        onclick="init()"
                         @click="hideDialog(); startGame()"
                         ref="btn">
                     Start Test
@@ -322,5 +324,35 @@
 </div>
 
 <script src="js/schulte.js"></script>
+
+<!--发送用户数据-->
+<script type="text/javascript">
+    var sendURL = 'http://192.168.60.79:8080/WebDemoTest/AnswerServlet';
+    var uid = document.getElementById("name");
+    var label = document.getElementById("label");
+    var date = new Date();
+    var folder = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();//年月日命名
+
+    if (uid == null || uid == "" || uid == "undefined") { //游客模式
+        fpath = "guest/" + new Fingerprint({canvas: true}).get() + "/" + folder;
+    } else {
+        fpath = uid + "/" + folder;
+    }
+    txt = date.getHours() + "-" + date.getMinutes() + "-" + date.getSeconds();
+    var date={"uid":uid, "label": label}
+    $.ajax({
+        type: 'POST',
+        url: sendURL,
+        data: JSON.stringify(data),
+        dataType: JSON,
+        //beforeSend: function(request) {
+        //    request.setRequestHeader("Content-type","application/json");
+        //},
+        complete: function () {
+            console.log("OH HAI");
+        }
+    });
+
+</script>
 </body>
 </html>
