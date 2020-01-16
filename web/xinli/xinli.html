@@ -89,6 +89,11 @@
                 <form id="userinfo" class="w3-form">
                     <p>Name : <input type="text" id="name" class="w3-input" name="fname"> </p>
                     <p>Label : <input type="text" id="label" class="w3-input" name="flabel"> </p>
+                    <br>
+                    <br>
+                    <input type="button" class="w3-btn w3-indigo w3-text-white w3-xlarge" style="display:block;margin:0 auto" value="NASA-LTX"
+                           onclick="window.open('/WebDemoTest/nasa-ltx/index.html')">
+                    <!--                    <a href="/nasa-ltx/index.html" class="w3-a">NASA-LTX</a></p>-->
                 </form>
 <!--                <table class="w3-table-all w3-large">-->
 <!--                    <tr>-->
@@ -105,24 +110,6 @@
 <!--                        <td>{{ stats.wrongClicks }}</td>-->
 <!--                    </tr>-->
 <!--                </table>-->
-                <div class="w3-row w3-col"
-                     style="margin-top: 5px; overflow-y:scroll; overflow-x:hidden; max-height:250px;"
-                     v-if="stats.clicks.length > 0">
-                    <table class="w3-table-all w3-hoverable w3-centered">
-                        <thead>
-                        <tr class="w3-light-grey">
-                            <th>Group</th>
-                            <th>Number</th>
-                            <th>Time</th>
-                        </tr>
-                        </thead>
-                        <tr v-for="stat in stats.clicks" :class="{'w3-text-red': stat.err}">
-                            <td>{{stat.groupN + 1}}</td>
-                            <td>{{stat.number}}</td>
-                            <td>{{stat.time}}s</td>
-                        </tr>
-                    </table>
-                </div>
             </div>
             <div class="w3-container w3-margin w3-padding-0" v-if="settingsTabVisible">
                 <div class="w3-row">
@@ -327,7 +314,7 @@
 
 <!--发送用户数据-->
 <script type="text/javascript">
-    var sendURL = 'http://192.168.60.79:8080/WebDemoTest/AnswerServlet';
+    var sendURL = 'http://localhost:8080/WebDemoTest/AnswerServlet';
     var uid = document.getElementById("name");
     var label = document.getElementById("label");
     var date = new Date();
@@ -339,7 +326,7 @@
         fpath = uid + "/" + folder;
     }
     txt = date.getHours() + "-" + date.getMinutes() + "-" + date.getSeconds();
-    var date={"uid":uid, "label": label}
+    var data={"uid":uid, "label": label}
     $.ajax({
         type: 'POST',
         url: sendURL,

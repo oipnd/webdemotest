@@ -6,7 +6,7 @@
             startImg: 'images/start.gif',
             endText: '已结束!',//end
             shortURL: null,
-            sendResultsURL: 'http://192.168.60.79:8080/WebDemoTest/AnswerServlet',
+            sendResultsURL: 'http://localhost:8080/WebDemoTest/AnswerServlet',
             resultComments: {
                 perfect: '恭喜您，您已完成全部问题！',
                 excellent: '非常优秀!',

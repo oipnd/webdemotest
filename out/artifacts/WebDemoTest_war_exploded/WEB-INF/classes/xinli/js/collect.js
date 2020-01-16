@@ -40,7 +40,7 @@ function inferBrowser() {//判断是否为移动端浏览器
 
 function init() {//主函数
     var date = new Date();
-    UID = document.getElementById("UID").value;
+    UID = document.getElementById("name").value;
     var folder = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();//年月日命名
     if (UID == null || UID == "" || UID == "undefined") { //游客模式
         fpath = "guest/" + new Fingerprint({canvas: true}).get() + "/" + folder;
