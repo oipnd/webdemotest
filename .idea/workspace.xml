@@ -5,37 +5,14 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WebDemoTest:war exploded" />
+      <artifact name="WebDemoTest" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae66c3f-64ad-494f-b874-f6c778a8c64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/css/jquery-ui-1.9.2.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/js/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/js/highcharts-2.3.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nasa-ltx/setup/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebDemoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/quiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/xinli/js/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/xinli/js/collect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/xinli/xinli.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/xinli/xinli.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="-329">
+              <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
               <folding>
                 <element signature="e#51#55#0" expanded="true" />
                 <element signature="e#51#55#0" expanded="true" />
@@ -84,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="93" column="8" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+            <state relative-caret-position="2046">
+              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -93,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="316" column="35" selection-start-line="316" selection-start-column="35" selection-end-line="316" selection-end-column="35" />
+            <state relative-caret-position="3753">
+              <caret line="317" column="27" selection-start-line="317" selection-start-column="27" selection-end-line="317" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -119,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/nasa-ltx/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="682">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -128,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="23144">
               <caret line="1065" column="4" selection-start-line="1065" selection-start-column="4" selection-end-line="1065" selection-end-column="4" />
             </state>
           </provider>
@@ -137,17 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="41756">
               <caret line="1898" column="1" selection-start-line="1898" selection-start-column="1" selection-end-line="1898" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="84">
+              <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -160,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="3740">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,10 +215,10 @@
         <option value="$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java" />
         <option value="$PROJECT_DIR$/web/xinli/demo.html" />
         <option value="$PROJECT_DIR$/web/xinli/js/schulte.js" />
-        <option value="$PROJECT_DIR$/web/xinli/js/collect.js" />
         <option value="$PROJECT_DIR$/web/nasa-ltx/index.html" />
         <option value="$PROJECT_DIR$/web/xinli/xinli.html" />
         <option value="$PROJECT_DIR$/web/quiz.js" />
+        <option value="$PROJECT_DIR$/web/xinli/js/collect.js" />
       </list>
     </option>
   </component>
@@ -258,7 +235,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
@@ -271,13 +248,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,10 +317,25 @@
               <item name="setup" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xinli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xinli" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -535,7 +543,8 @@
       <workItem from="1578815876968" duration="5902000" />
       <workItem from="1578911800305" duration="3410000" />
       <workItem from="1578925895989" duration="151000" />
-      <workItem from="1578988134942" duration="6958000" />
+      <workItem from="1578988134942" duration="7462000" />
+      <workItem from="1579153190624" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="version v1.0-1">
       <created>1558682882325</created>
@@ -555,7 +564,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66771000" />
+    <option name="totallyTimeSpent" value="68139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +579,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -581,12 +590,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.27728286" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.31737193" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.31737193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32845894" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21603563" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21579532" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.39933258" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -926,39 +935,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="-329">
+          <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#51#55#0" expanded="true" />
+            <element signature="e#51#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
+    <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1898" column="1" selection-start-line="1898" selection-start-column="1" selection-end-line="1898" selection-end-column="1" />
+        <state relative-caret-position="2046">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1065" column="4" selection-start-line="1065" selection-start-column="4" selection-end-line="1065" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://localhost:8080/WebDemoTest/xinli/js/collect.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/xinli/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -969,10 +962,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/nasa-ltx/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23144">
+          <caret line="1065" column="4" selection-start-line="1065" selection-start-column="4" selection-end-line="1065" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41756">
+          <caret line="1898" column="1" selection-start-line="1898" selection-start-column="1" selection-end-line="1898" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:8080/WebDemoTest/xinli/js/collect.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="316" column="35" selection-start-line="316" selection-start-column="35" selection-end-line="316" selection-end-column="35" />
+        <state relative-caret-position="3753">
+          <caret line="317" column="27" selection-start-line="317" selection-start-column="27" selection-end-line="317" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -982,28 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/nasa-ltx/index.html">
+    <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="93" column="8" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#51#55#0" expanded="true" />
-            <element signature="e#51#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1013,7 +1022,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>WebDemoTest:war exploded</last-edited>
+          <last-edited>WebDemoTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

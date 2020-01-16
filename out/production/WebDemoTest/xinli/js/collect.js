@@ -239,7 +239,7 @@ function collect(behInfo, bType) {//异步提交行为信息
 //			document.getElementById("test").innerHTML = xmlhttp.responseText;http://202.117.3.78:8080
         }
     };
-    xmlhttp.open("POST", "http://192.168.60.79:8080/WebDemoTest/AJAXServlet", true);
+    xmlhttp.open("POST", "http://localhost:8080/WebDemoTest/AJAXServlet", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send("behInfo=" + behInfo + "&bType=" + bType + "&fpath=" + fpath + "&txt=" + txt);
 }
