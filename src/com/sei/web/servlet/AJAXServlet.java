@@ -25,19 +25,45 @@ public class AJAXServlet extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:8080");
+        response.setHeader("Access-Control-Allow-Methods", "POST,GET,PUT,OPTIONS,DELETE");
+        response.setHeader("Access-Control-Allow-Headers", "x-requested-with, Content-Type");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
         //允许跨域访问
         String behInfo = request.getParameter("behInfo");
         String bType = request.getParameter("bType");
         String fpath = request.getParameter("fpath");
         String txt = request.getParameter("txt");
-        String path = "D:/data/" + bType + "/" + fpath;
+        String path = "/data1/" + bType + "/" + fpath;
+        String os = System.getProperty("os.name");
+        if (os.toLowerCase().startsWith("win")) {
+            path="D:\\data\\" + bType + "\\" + fpath;
+        }
 
         if (behInfo != null && bType != null) {
             dataToFile(behInfo, bType, path, txt);
         }
 
 
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setHeader("Access-Control-Allow-Origin", "*");
+        resp.setHeader("Access-Control-Allow-Methods", "POST,GET,PUT,OPTIONS,DELETE");
+        resp.setHeader("Access-Control-Allow-Headers", "x-requested-with, Content-Type");
+        resp.setHeader("Access-Control-Allow-Credentials", "true");
+        //允许跨域访问
+        String behInfo = req.getParameter("behInfo");
+        String bType = req.getParameter("bType");
+        String fpath = req.getParameter("fpath");
+        String txt = req.getParameter("txt");
+        String path = "/data1/" + bType + "/" + fpath;
+
+
+        if (behInfo != null && bType != null) {
+            dataToFile(behInfo, bType, path, txt);
+        }
     }
 
     public void dataToFile(String behInfo, String bType, String path, String text) throws IOException {

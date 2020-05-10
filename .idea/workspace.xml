@@ -5,15 +5,45 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WebDemoTest" />
+      <artifact name="WebDemoTest:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae66c3f-64ad-494f-b874-f6c778a8c64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/css/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fingerprint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/codropsicons/codropsicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/codropsicons/codropsicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/codropsicons/codropsicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/codropsicons/codropsicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/js/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/js/stepsForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/score.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/score/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/menu_Collect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu_Collect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/menu_Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu_Main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xinli/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xinli/js/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/xinli/js/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xinli/xinli.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/xinli/xinli.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,180 +71,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xinli/js/jquery.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/nasa-ltx/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23144">
-              <caret line="1065" column="4" selection-start-line="1065" selection-start-column="4" selection-end-line="1065" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41756">
-              <caret line="1898" column="1" selection-start-line="1898" selection-start-column="1" selection-end-line="1898" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4176">
-              <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="http://localhost:8080/WebDemoTest/xinli/js/collect.js">
-          <provider selected="true" editor-type-id="httpFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>studentno</find>
-      <find>UID</find>
-      <find>Extroversion</find>
-      <find>li</find>
-      <find>console.log</find>
-      <find>quiz.js</find>
-      <find>contentFob</find>
-      <find>onclick</find>
-      <find>192.1</find>
-      <find>192</find>
-      <find>container</find>
-      <find>190</find>
-      <find>192.168.</find>
-      <find>WJ</find>
-      <find>appendMouseMove</find>
-      <find>dialog</find>
-      <find>app</find>
-      <find>stats</find>
-      <find>statsTabVisible</find>
-      <find>settingsTabVisible</find>
-      <find>input</find>
-      <find>settings</find>
-      <find>w3-large</find>
-      <find>form</find>
-      <find>answer</find>
-      <find>答案</find>
-      <find>fpath</find>
-      <find>app2</find>
-      <find>nasa</find>
-      <find>192.168.60.79</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>localhost</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/testJson.java" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/Answers.java" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/AnswerServlet.java" />
-        <option value="$PROJECT_DIR$/web/wenjuan.jsp" />
-        <option value="$PROJECT_DIR$/web/collect.js" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java" />
-        <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/web/assets/js/jquery-1.8.1.min.js" />
-        <option value="$PROJECT_DIR$/web/xinli/xinli.jsp" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java" />
-        <option value="$PROJECT_DIR$/web/menu_Collect.jsp" />
-        <option value="$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java" />
-        <option value="$PROJECT_DIR$/web/xinli/demo.html" />
-        <option value="$PROJECT_DIR$/web/xinli/js/schulte.js" />
-        <option value="$PROJECT_DIR$/web/nasa-ltx/index.html" />
-        <option value="$PROJECT_DIR$/web/xinli/xinli.html" />
-        <option value="$PROJECT_DIR$/web/quiz.js" />
-        <option value="$PROJECT_DIR$/web/xinli/js/collect.js" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -223,116 +89,14 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1WTuLTOisqweLY8HDQuBxk1jeo9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sei" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="nasa-ltx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="nasa-ltx" type="462c0819:PsiDirectoryNode" />
-              <item name="setup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="nasa-ltx" type="462c0819:PsiDirectoryNode" />
-              <item name="setup" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="xinli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDemoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDemoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="xinli" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -342,7 +106,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/nasa-ltx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/score" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -351,24 +115,17 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oipnd\IdeaProjects\webdemotest\web\xinli" />
+      <recent name="C:\Users\oipnd\IdeaProjects\webdemotest\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oipnd\IdeaProjects\webdemotest\web\score" />
+      <recent name="C:\Users\oipnd\IdeaProjects\webdemotest\web\xinli" />
       <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web\nasa-ltx" />
       <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web" />
       <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web\xinli\js" />
-      <recent name="C:\Users\lanoipd\Desktop\实验室相关\WebDemoTest\web\xinli" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.WebDemoTest">
     <configuration name="testJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -385,7 +142,6 @@
       </method>
     </configuration>
     <configuration name="WebDemoTest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -504,6 +260,33 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -540,6 +323,28 @@
       <workItem from="1578925895989" duration="151000" />
       <workItem from="1578988134942" duration="7462000" />
       <workItem from="1579153190624" duration="1162000" />
+      <workItem from="1579185854092" duration="3164000" />
+      <workItem from="1579232582283" duration="81000" />
+      <workItem from="1579351010993" duration="133000" />
+      <workItem from="1580103751908" duration="1042000" />
+      <workItem from="1580279966204" duration="136000" />
+      <workItem from="1580286046542" duration="3552000" />
+      <workItem from="1581325380187" duration="1338000" />
+      <workItem from="1581394225801" duration="11005000" />
+      <workItem from="1582184178731" duration="589000" />
+      <workItem from="1582280537273" duration="2669000" />
+      <workItem from="1582978488364" duration="3072000" />
+      <workItem from="1583067263268" duration="233000" />
+      <workItem from="1583068997619" duration="2780000" />
+      <workItem from="1583832665193" duration="64000" />
+      <workItem from="1584085329457" duration="434000" />
+      <workItem from="1584704283310" duration="558000" />
+      <workItem from="1584876921956" duration="497000" />
+      <workItem from="1587367211702" duration="1010000" />
+      <workItem from="1587483840386" duration="1448000" />
+      <workItem from="1588319196680" duration="1480000" />
+      <workItem from="1588766217650" duration="10464000" />
+      <workItem from="1588832384058" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="version v1.0-1">
       <created>1558682882325</created>
@@ -558,9 +363,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68437000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -570,450 +372,157 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.27728286" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.31737193" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32845894" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32845894" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21492206" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.39933258" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32850778" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.24053451" />
-      <window_info anchor="bottom" id="Sequence" order="15" />
-      <window_info anchor="bottom" id="Statistic" order="16" weight="0.3295838" />
-      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.3295838" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32942432" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.18856838" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="PlantUML" order="9" />
-      <window_info anchor="right" id="leetcode" order="10" side_tool="true" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version v1.0-1" />
     <MESSAGE value="version v1.0-2" />
     <option name="LAST_COMMIT_MESSAGE" value="version v1.0-2" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1581399307463">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1581399307463" />
+    <state x="93" y="93" width="1093" height="573" maximized="true" key="DiffContextDialog" timestamp="1588776556673">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state x="93" y="93" width="1093" height="573" maximized="true" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1581326509811" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1582979905883" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588834169396" />
+    <state width="1175" height="197" key="GridCell.Tab.0.bottom/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1588834908887">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1582979905882" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588834169395" />
+    <state width="1175" height="197" key="GridCell.Tab.0.center/62.0.1218.800@62.0.1218.800" timestamp="1584085765021" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/72.0.1208.800@72.0.1208.800" timestamp="1588834908887" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1588834908887">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1582979905881" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588834169394" />
+    <state width="1175" height="197" key="GridCell.Tab.0.left/62.0.1218.800@62.0.1218.800" timestamp="1584085765020" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/72.0.1208.800@72.0.1208.800" timestamp="1588834908887" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1588834908887">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1582979905883" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588834169395" />
+    <state width="1175" height="197" key="GridCell.Tab.0.right/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/72.0.1208.800@72.0.1208.800" timestamp="1588834908887" />
+    <state width="1238" height="196" key="GridCell.Tab.1.bottom" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1582979905884" />
+    <state width="1238" height="196" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588834169396" />
+    <state width="1175" height="197" key="GridCell.Tab.1.bottom/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.1.bottom/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.1.center" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1582979905883" />
+    <state width="1238" height="196" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1588834169396" />
+    <state width="1175" height="197" key="GridCell.Tab.1.center/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.1.center/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.1.left" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1582979905883" />
+    <state width="1238" height="196" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1588834169396" />
+    <state width="1175" height="197" key="GridCell.Tab.1.left/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.1.left/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.1.right" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1582979905883" />
+    <state width="1238" height="196" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1588834169396" />
+    <state width="1175" height="197" key="GridCell.Tab.1.right/62.0.1218.800@62.0.1218.800" timestamp="1584085765022" />
+    <state width="1238" height="196" key="GridCell.Tab.1.right/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.2.bottom" timestamp="1588834908889">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1582979905885" />
+    <state width="1238" height="196" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588834169397" />
+    <state width="1175" height="197" key="GridCell.Tab.2.bottom/62.0.1218.800@62.0.1218.800" timestamp="1584085765023" />
+    <state width="1238" height="196" key="GridCell.Tab.2.bottom/72.0.1208.800@72.0.1208.800" timestamp="1588834908889" />
+    <state width="1238" height="196" key="GridCell.Tab.2.center" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1582979905884" />
+    <state width="1238" height="196" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1588834169397" />
+    <state width="1175" height="197" key="GridCell.Tab.2.center/62.0.1218.800@62.0.1218.800" timestamp="1584085765023" />
+    <state width="1238" height="196" key="GridCell.Tab.2.center/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.2.left" timestamp="1588834908888">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1582979905884" />
+    <state width="1238" height="196" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1588834169397" />
+    <state width="1175" height="197" key="GridCell.Tab.2.left/62.0.1218.800@62.0.1218.800" timestamp="1584085765023" />
+    <state width="1238" height="196" key="GridCell.Tab.2.left/72.0.1208.800@72.0.1208.800" timestamp="1588834908888" />
+    <state width="1238" height="196" key="GridCell.Tab.2.right" timestamp="1588834908889">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state width="1238" height="185" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1582979905884" />
+    <state width="1238" height="196" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1588834169397" />
+    <state width="1175" height="197" key="GridCell.Tab.2.right/62.0.1218.800@62.0.1218.800" timestamp="1584085765023" />
+    <state width="1238" height="196" key="GridCell.Tab.2.right/72.0.1208.800@72.0.1208.800" timestamp="1588834908889" />
+    <state width="846" height="148" key="GridCell.Tab.3.bottom" timestamp="1581407315467">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="148" key="GridCell.Tab.3.bottom/0.0.1280.760@0.0.1280.760" timestamp="1581407315467" />
+    <state width="846" height="148" key="GridCell.Tab.3.center" timestamp="1581407315466">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="148" key="GridCell.Tab.3.center/0.0.1280.760@0.0.1280.760" timestamp="1581407315466" />
+    <state width="846" height="148" key="GridCell.Tab.3.left" timestamp="1581407315466">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="148" key="GridCell.Tab.3.left/0.0.1280.760@0.0.1280.760" timestamp="1581407315466" />
+    <state width="846" height="148" key="GridCell.Tab.3.right" timestamp="1581407315467">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="148" key="GridCell.Tab.3.right/0.0.1280.760@0.0.1280.760" timestamp="1581407315466" />
+    <state x="93" y="93" width="1093" height="573" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581404338571">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="93" y="93" width="1093" height="573" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.760@0.0.1280.760" timestamp="1581404338571" />
+    <state x="62" y="124" key="new project wizard" timestamp="1584704350782">
+      <screen x="62" y="0" width="1218" height="800" />
+    </state>
+    <state x="62" y="124" key="new project wizard/62.0.1218.800@62.0.1218.800" timestamp="1584704350782" />
+    <state x="363" y="91" width="672" height="714" key="search.everywhere.popup" timestamp="1588776722133">
+      <screen x="72" y="0" width="1208" height="800" />
+    </state>
+    <state x="305" y="84" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1581326685096" />
+    <state x="363" y="91" width="672" height="714" key="search.everywhere.popup/72.0.1208.800@72.0.1208.800" timestamp="1588776722133" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="name" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/fullscreenForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="185" column="190" selection-start-line="185" selection-start-column="190" selection-end-line="185" selection-end-column="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/DaoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/CollectServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/registerTest.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/registerCollect.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/questionare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AttackServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modelBuild.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/out.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5chars.ent">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu_Main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu_Model.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-943" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/miaoshaCollect.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery-1.8.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="37384" lean-forward="true" selection-start-line="1" selection-start-column="37384" selection-end-line="1" selection-end-column="37384" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/bui-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7478" selection-start-line="10" selection-start-column="7478" selection-end-line="10" selection-end-column="7478" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/fingerprint.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/ReaderDBFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WriterDBFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/moduleServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu_Collect.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="62" column="107" selection-start-line="62" selection-start-column="107" selection-end-line="62" selection-end-column="107" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#center#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/menuCollectServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/css/schulte.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/collect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#inferBrowser#0" />
-            <element signature="n#!!block;n#browserInfo#0" />
-            <element signature="n#!!block;n#touch#0" />
-            <element signature="n#!!block;n#mouseMove#0" />
-            <element signature="n#!!block;n#mouseDown#0" />
-            <element signature="n#!!block;n#mouseUp#0" />
-            <element signature="n#!!block;n#mouseWheel#0" />
-            <element signature="n#!!block;n#keyDown#0" />
-            <element signature="n#!!block;n#keyUp#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/WJServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/VerifyCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AnswerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/nasa-ltx/setup/js/default.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/schulte.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-          <folding>
-            <element signature="n#!!block;n#Cell#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/AJAXServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/JSONServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1095">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding>
-            <element signature="e#51#55#0" expanded="true" />
-            <element signature="e#51#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/wenjuan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/nasa-ltx/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23144">
-          <caret line="1065" column="4" selection-start-line="1065" selection-start-column="4" selection-end-line="1065" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/css/w3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41756">
-          <caret line="1898" column="1" selection-start-line="1898" selection-start-column="1" selection-end-line="1898" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://localhost:8080/WebDemoTest/xinli/js/collect.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sei/web/servlet/XinliServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3740">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/js/collect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4176">
-          <caret line="231" column="32" lean-forward="true" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xinli/xinli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -133,8 +133,11 @@ public class XinliServlet extends HttpServlet {
     public String DataToFile(String s, String name, String method, String type) throws IOException {
         String path = null;
         File filePath;
-
-        path = "D:\\data\\" + name;
+        path = "/data/" + name;
+        String os = System.getProperty("os.name");
+        if (os.toLowerCase().startsWith("win")) {
+            path="D:\\data\\" + name;
+        }
         filePath = new File(path);
         if (!filePath.exists()) {
             filePath.mkdirs();
