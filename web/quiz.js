@@ -6,7 +6,7 @@
             startImg: 'images/start.gif',
             endText: '已结束!',//end
             shortURL: null,
-            sendResultsURL: 'http://localhost:8080/WebDemoTest/AnswerServlet',
+            sendResultsURL: 'http://192.168.60.79:8080/WebDemoTest/AnswerServlet',
             resultComments: {
                 perfect: '恭喜您，您已完成全部问题！',
                 excellent: '非常优秀!',
@@ -248,18 +248,32 @@
                 var answerjson = '{"answers": [' + collate.join(",") + ']}';
                 var bType = inferBrowser();
                 var data = {"uid": uid, "fpath": fpath, "txt": txt, "answers": answerjson, "bType": bType};
-                $.ajax({
-                    type: 'POST',
-                    url: config.sendResultsURL,
-                    data: JSON.stringify(data),
-                    dataType: JSON,
-                    //beforeSend: function(request) {
-                    //    request.setRequestHeader("Content-type","application/json");
-                    //},
-                    complete: function () {
-                        console.log("OH HAI");
+                var xmlhttp;
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+//			document.getElementById("test").innerHTML = xmlhttp.responseText;http://202.117.3.78:8080
                     }
-                });
+                };
+                xmlhttp.open("POST", config.sendResultsURL, true);
+                xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlhttp.send(JSON.stringify(data));
+                // $.ajax({
+                //     type: 'POST',
+                //     url: config.sendResultsURL,
+                //     data: JSON.stringify(data),
+                //     dataType: JSON,
+                //     //beforeSend: function(request) {
+                //     //    request.setRequestHeader("Content-type","application/json");
+                //     //},
+                //     complete: function () {
+                //         console.log("OH HAI");
+                //     }
+                // });
             }
             progressKeeper.hide();
             var results = checkAnswers(),

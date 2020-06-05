@@ -25,7 +25,7 @@ public class AJAXServlet extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:8080");
+        response.setHeader("Access-Control-Allow-Origin", "*");
         response.setHeader("Access-Control-Allow-Methods", "POST,GET,PUT,OPTIONS,DELETE");
         response.setHeader("Access-Control-Allow-Headers", "x-requested-with, Content-Type");
         response.setHeader("Access-Control-Allow-Credentials", "true");

@@ -33,6 +33,9 @@ public class AnswerServlet extends HttpServlet {
 
         //允许跨域访问
         response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Methods", "POST,GET,PUT,OPTIONS,DELETE");
+        response.setHeader("Access-Control-Allow-Headers", "x-requested-with, Content-Type");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
         //处理json
         BufferedReader reader = request.getReader();
         StringBuilder readerStr = new StringBuilder() ;
