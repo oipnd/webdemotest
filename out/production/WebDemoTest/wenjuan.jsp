@@ -18,21 +18,21 @@
     <script type="text/javascript" src="fingerprint.js"></script>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="quiz.js"></script>
-    <script type="text/javascript" src="collect.js"></script>
+    <script type="text/javascript" src="collect_no_ajax.js"></script>
     <script type="text/javascript">
         var questions={
             'questions': [
-                // { 'question': '我认为我自己爱说话', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'ext' },
-                // { 'question': '我认为我自己喜欢挑剔别人的毛病', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'agr' },
-                // { 'question': '我认为我自己工作很周密', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'con' },
-                // { 'question': '我认为我自己压抑而忧郁', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'neu' },
-                // { 'question': '我认为我自己具有独创性，会产生新点子', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'opn' },
-                // { 'question': '我认为我自己含蓄的', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'ext' },
-                // { 'question': '天空中有几个太阳', 'answers': ['三个', '五个', '十个', '九个', '一个'], 'correctAnswer': 1, 'key': 'ext12' },
-                // { 'question': '我认为我自己乐于助人，无私', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'agr' },
-                // { 'question': '我认为我自己可能有些粗心', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'con' },
-                // { 'question': '我认为我自己放松的，可以很好应对压力', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'neu' },
-                // { 'question': '我认为我自己对许多不同的事情感到好奇', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'opn' },
+                { 'question': '我认为我自己爱说话', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'ext' },
+                { 'question': '我认为我自己喜欢挑剔别人的毛病', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'agr' },
+                { 'question': '我认为我自己工作很周密', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'con' },
+                { 'question': '我认为我自己压抑而忧郁', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'neu' },
+                { 'question': '我认为我自己具有独创性，会产生新点子', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'opn' },
+                { 'question': '我认为我自己含蓄的', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'ext' },
+                { 'question': '天空中有几个太阳', 'answers': ['三个', '五个', '十个', '九个', '一个'], 'correctAnswer': 1, 'key': 'ext12' },
+                { 'question': '我认为我自己乐于助人，无私', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'agr' },
+                { 'question': '我认为我自己可能有些粗心', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'con' },
+                { 'question': '我认为我自己放松的，可以很好应对压力', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'neu' },
+                { 'question': '我认为我自己对许多不同的事情感到好奇', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'opn' },
                 { 'question': '我认为我自己精力充沛', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'ext' },
                 // { 'question': '我认为我自己经常与他人发生争吵', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'agr' },
                 // { 'question': '我认为我自己是个可信赖的人', 'answers': ['非常不同意', '有点不同意', '无所谓', '有点同意', '非常同意'], 'correctAnswer': 1, 'key': 'con' },

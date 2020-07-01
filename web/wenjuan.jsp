@@ -18,7 +18,7 @@
     <script type="text/javascript" src="fingerprint.js"></script>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="quiz.js"></script>
-    <script type="text/javascript" src="collect.js"></script>
+    <script type="text/javascript" src="collect_no_ajax.js"></script>
     <script type="text/javascript">
         var questions={
             'questions': [

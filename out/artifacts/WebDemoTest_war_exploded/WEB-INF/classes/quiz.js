@@ -42,7 +42,7 @@
             contentFob += '</ul><div class="nav-container">';
             //Display the Previous and Next Button
             if (questionsIteratorIndex !== 0) {
-                contentFob += '<div class="prev"><a class="nav-previous" href="#">&lt; 上一题</a></div>';
+                // contentFob += '<div class="prev"><a class="nav-previous" href="#">&lt; 上一题</a></div>';
             }
             if (questionsIteratorIndex < config.questions.length - 1) {
                 contentFob += '<div class="next"><a class="nav-next" href="#">下一题 &gt;</a></div>';

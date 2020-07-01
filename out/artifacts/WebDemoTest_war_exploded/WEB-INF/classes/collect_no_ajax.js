@@ -1,12 +1,25 @@
 /**
  * Powered by xjtu;
- * Copyright @zbcai;
+ * Copyright @njf;
  */
+function cachePool(infoPool, typePool, maxPoolSize) {
+    this.infoPool = infoPool;
+    this.typePool = typePool;
+    this.maxPoolSize = maxPoolSize;
+    this.add = function (bInfo, bType) {
+        if (infoPool.push(bInfo) > maxPoolSize || typePool.push(bType) > maxPoolSize) {
+            for (var i = 0; i <= maxPoolSize; i++) {
+                collect(infoPool.shift(), typePool.shift())
+            }
+        }
+    };
+}
 
 var enter = "\r\n";
 var txt; //保存文件路径，代表时分秒
 var UID; //账号ID
 var fpath; //文件夹路径
+var cache = new cachePool([], [], 10); //创建缓存池单例对象
 
 function inferBrowser() {//判断是否为移动端浏览器
     var browser = {
@@ -130,7 +143,7 @@ function browserInfo(bType) {//获取浏览器信息
     behInfo += "browser fingerprint with screen_resolution enabled:   " + fp4.get() + enter;
     behInfo += enter;
 
-    collect(behInfo, bType);
+    cache.add(behInfo, bType);
 }
 
 function touch(event) {//获取移动端行为信息
@@ -141,20 +154,20 @@ function touch(event) {//获取移动端行为信息
             var x = e.targetTouches[0].screenX;
             var y = e.targetTouches[0].screenY;
             behInfo = "touchstart\t" + x + "\t" + y + "\t" + new Date().valueOf() + enter;
-            collect(behInfo, "mobile");
+            cache.add(behInfo, "mobile");
             break;
         case "touchmove":
             e.preventDefault();
             var x = e.targetTouches[0].screenX;
             var y = e.targetTouches[0].screenY;
             behInfo = "touchmove\t" + x + "\t" + y + "\t" + new Date().valueOf() + enter;
-            collect(behInfo, "mobile");
+            cache.add(behInfo, "mobile");
             break;
         case "touchend":
             var x = e.changedTouches[0].screenX;
             var y = e.changedTouches[0].screenY;
             behInfo = "touchend\t" + x + "\t" + y + "\t" + new Date().valueOf() + enter;
-            collect(behInfo, "mobile");
+            cache.add(behInfo, "mobile");
             break;
     }
 }
@@ -164,7 +177,7 @@ function mouseMove(event) {
     var x = e.screenX;
     var y = e.screenY;
     var behInfo = "mousemove\t" + x + "\t" + y + "\t" + new Date().valueOf() + enter;
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
 function mouseDown(event) {
@@ -184,7 +197,7 @@ function mouseDown(event) {
     } else {
         behInfo = "mousedown_2\t" + x + "\t" + y + "\t" + new Date().valueOf() + "\t" + "click:" + tname + enter;
     }
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
 function mouseUp(event) {
@@ -199,7 +212,7 @@ function mouseUp(event) {
     } else {
         behInfo = "mouseup_2\t" + x + "\t" + y + "\t" + new Date().valueOf() + enter;
     }
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
 function mouseWheel(event) {
@@ -210,24 +223,26 @@ function mouseWheel(event) {
     } else {//FireFox: 3的倍数，向上是-3，向下是3
         behInfo = "mousewheel\t" + e.detail + "\t" + new Date().valueOf() + enter;
     }
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
 function keyDown(event) {
     var e = event || window.event || arguments.callee.caller.arguments[0];
     var code = e.keyCode;
     var behInfo = "keydown\t" + code + "\t" + new Date().valueOf() + enter;
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
 function keyUp(event) {
     var e = event || window.event || arguments.callee.caller.arguments[0];
     var code = e.keyCode;
     var behInfo = "keyup\t" + code + "\t" + new Date().valueOf() + enter;
-    collect(behInfo, "pc");
+    cache.add(behInfo, "pc");
 }
 
+
 function collect(behInfo, bType) {//异步提交行为信息
+
     var xmlhttp;
     if (window.XMLHttpRequest) {
         xmlhttp = new XMLHttpRequest();
@@ -239,7 +254,7 @@ function collect(behInfo, bType) {//异步提交行为信息
 //			document.getElementById("test").innerHTML = xmlhttp.responseText;http://202.117.3.78:8080
         }
     };
-        xmlhttp.open("POST", "http://192.168.60.79:8080/WebDemoTest/AJAXServlet", true);
+    xmlhttp.open("POST", "http://192.168.0.107:8080/WebDemoTest/AJAXServlet", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send("behInfo=" + behInfo + "&bType=" + bType + "&fpath=" + fpath + "&txt=" + txt);
 }
