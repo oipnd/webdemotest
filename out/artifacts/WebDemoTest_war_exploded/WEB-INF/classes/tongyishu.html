@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知情同意书</title>
+    <style>
+        div {
+            width: 500px; /*定宽*/
+            margin: 20px auto; /* margin-left 与 margin-right 设置为 auto */
+        }
+    </style>
+    <script type="text/javascript">
+        function disable() {
+            document.getElementById("accept").disabled = true
+        }
+
+        function enable() {
+            document.getElementById("accept").disabled = false
+        }
+    </script>
+    <script>
+        function tz(){
+            window.location.href='http://192.168.60.79:8080/WebDemoTest/wenjuan.jsp';
+        }
+    </script>
+</head>
+<body>
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+        您即将参加一项由XXX组织的研究，由于您符合被试的条件，特邀请您参加此项实验。
+        您参与此项研究是本着自愿原则，本项研究已通过本研究机构伦理审查委员会审查。如果您同意加入此项研究，请点击“同意”按钮后开始进行测试。
+    </p>
+    <input type="checkBox" onclick="if (this.checked) {enable()} else {disable()}">我同意协议
+    <br/>
+    <br/>
+    <br/>
+    <input type="button" id="accept" disabled="true" onclick="tz()" value="进入测试">
+</div>
+</body>
+</html>

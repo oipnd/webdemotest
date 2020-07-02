@@ -52,7 +52,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <%--	<p style="font-family: '微软雅黑';font-weight:bold;font-size:50px;color:#445cbb">注册采集</p>--%>
 <%--	</a></center>--%>
 	<br>
-   <center><a style="text-decoration:none" title="点我进入问卷采集" href=/WebDemoTest/menuCollectServlet?WebType=wenjuan >
+   <center><a style="text-decoration:none" title="点我进入问卷采集" href=/WebDemoTest/menuCollectServlet?WebType=tongyishu >
 	   <p style="font-family: '微软雅黑';font-weight:bold;font-size:50px;color:#445cbb">问卷采集</p>
    </a></center>
    <br>
